@@ -1,0 +1,7 @@
+SELECT
+    ID,
+    NAME,
+    DESCRIPTION,
+    CREATED_AT,
+FROM
+    ORDERS
