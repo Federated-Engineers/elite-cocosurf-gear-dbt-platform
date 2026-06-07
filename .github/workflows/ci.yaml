@@ -5,6 +5,9 @@ on:
     paths:
       - "**.sql"
 
+    branches:
+      - main
+
 jobs:
   dbt-ci:
     runs-on: ubuntu-latest
