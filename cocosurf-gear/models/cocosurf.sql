@@ -1,7 +1,7 @@
-Select
+SELECT
     id,
     name,
     description,
     created_at
-From
+FROM
     orders
