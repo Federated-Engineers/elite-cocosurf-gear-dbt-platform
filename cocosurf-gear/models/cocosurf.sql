@@ -1,7 +1,7 @@
-SELECT
-    ID,
-    NAME,
-    DESCRIPTION,
-    CREATED_AT,
-FROM
-    ORDERS
+select
+    id,
+    name,
+    description,
+    created_at
+from
+    orders
