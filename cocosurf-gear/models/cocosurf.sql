@@ -1,7 +1,7 @@
-select
+Select
     id,
     name,
     description,
     created_at
-from
+From
     orders
