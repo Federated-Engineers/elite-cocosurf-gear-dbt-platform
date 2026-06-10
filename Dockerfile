@@ -8,6 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY cocosurf-gear/ ./cocosurf-gear/
 
-WORKDIR /usr/dbt_src/cocosurf-gear
+COPY run_dbt.sh .
 
-CMD ["dbt", "build"]
+RUN chmod +x run_dbt.sh
+
+CMD ["./run_dbt.sh"]
