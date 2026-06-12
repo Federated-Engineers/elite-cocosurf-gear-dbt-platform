@@ -1,0 +1,11 @@
+name: 'cocosurf-gear-dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'cocosurf-gear-dbt'
+
+model-paths: ["models"]
+
+models:
+  cocosurf-gear-dbt:
+    +materialized: view
