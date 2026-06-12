@@ -3,4 +3,3 @@ dbt_internal_packages/
 logs/
 target/
 .env
-.cocosurf-gear/dbt_project.yml
