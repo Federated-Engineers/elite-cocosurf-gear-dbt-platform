@@ -42,7 +42,7 @@ jobs:
       - name: Build and Push Docker Image
         env:
           REGISTRY: ${{ secrets.ECR_REGISTRY }}
-          REPOSITORY: cocosurf-gear
+          REPOSITORY: elite-cocosurf-gear-dbt
           IMAGE_TAG: latest
 
         run: |
