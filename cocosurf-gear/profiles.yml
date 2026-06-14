@@ -1,13 +1,6 @@
 cocosurf-gear-dbt:
   outputs:
     dev:
-      account: UKMBYZJ-KR67263
-      database: COCOSURF_GEAR
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
-      role: ACCOUNTADMIN
-      schema: COCOSURF_GEAR_DBT
       threads: 1
       type: snowflake
-      user: IYOSAYI
-      warehouse: transforming
   target: dev
